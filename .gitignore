@@ -1,0 +1,46 @@
+
+---
+
+## 📄 File 5: .gitignore
+
+```gitignore
+# VirtualBox files
+*.vdi
+*.vbox
+*.vbox-prev
+*.vmdk
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Linux
+.directory
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Kali session logs
+script*.txt
+session_*.log
+
+# Packet captures
+*.pcap
+*.pcapng
+
+# Nmap outputs (if you commit them, remove these lines)
+*.nmap
+*.xml
+*.gnmap
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Python
+__pycache__/
+*.pyc
