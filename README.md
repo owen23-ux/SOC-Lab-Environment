@@ -121,7 +121,7 @@ With this lab running, you can:
 **Owen Maake**  
 - 🔬 SOC Analyst (in training)
 - 🛡️ Blue Team Enthusiast
-- 📧 [mailto:owenlethabo28@Gmail.com]
+- 📧 mailto:owenlethabo28@Gmail.com
 - 🔗 [(https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/owen-maake-0b715a3a3/)]
 
 ## 📄 License
