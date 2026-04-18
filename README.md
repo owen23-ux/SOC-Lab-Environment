@@ -68,7 +68,7 @@ As a SOC Analyst in training, I realized that reading threat reports wasn't enou
 > *I documented every step with screenshots. Here's what I did and what I learned.*
 
 ### 1️⃣ Download VirtualBox & Extension Pack
-![Step 1](screenshots/01-download-virtualbox.png)
+![Step 1](screenshots/01-download-virtualbox.PNG)
 > Downloaded VirtualBox platform package + Extension Pack for USB 3.0 and RDP support.
 
 ### 2️⃣ Create New Virtual Machine
