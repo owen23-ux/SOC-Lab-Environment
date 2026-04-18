@@ -72,47 +72,47 @@ As a SOC Analyst in training, I realized that reading threat reports wasn't enou
 > Downloaded VirtualBox platform package + Extension Pack for USB 3.0 and RDP support.
 
 ### 2️⃣ Create New Virtual Machine
-![Step 2](screenshots/02-create-vm.png)
+![Step 2](screenshots/02-create-vm.PNG)
 > Named it `SOC Lab`, Type: Linux → Ubuntu (64-bit), selected Kali ISO.
 
 ### 3️⃣ Hardware Summary
-![Step 3](screenshots/03-vm-summary.png)
+![Step 3](screenshots/03-vm-summary.PNG)
 > Default specs: 2GB RAM, 25GB storage, NAT networking.
 
 ### 4️⃣ Motherboard Settings
-![Step 4](screenshots/04-motherboard-settings.png)
+![Step 4](screenshots/04-motherboard-settings.PNG)
 > Configured boot order (Optical first for installation).
 
 ### 5️⃣ Increase CPU Cores ⚡
-![Step 5](screenshots/05-cpu-cores.png)
+![Step 5](screenshots/05-cpu-cores.PNG)
 > **Key tweak:** Set to **2 CPUs** for better performance during scans.
 
 ### 6️⃣ Configure Bridged Network 🌐
-![Step 6](screenshots/06-bridged-network.png)
+![Step 6](screenshots/06-bridged-network.PNG)
 > **Critical moment:** Changed from NAT to **Bridged Adapter** for real network access.
 
 ### 7️⃣ Optional Internal Network 🔒
-![Step 7](screenshots/07-internal-network.png)
+![Step 7](screenshots/07-internal-network.PNG)
 > Created isolated "Home Lab" network for VM-to-VM testing.
 
 ### 8️⃣ VM Running Successfully ✅
-![Step 8](screenshots/08-vm-running.png)
+![Step 8](screenshots/08-vm-running.PNG)
 > Kali Linux booted and ready for action!
 
 ### 9️⃣ Verify Kali IP Address
-![Step 9](screenshots/09-kali-ifconfig.png)
+![Step 9](screenshots/09-kali-ifconfig.PNG)
 > Ran `ifconfig` - Kali showed IP `192.168.10.124` on my home network.
 
 ### 🔟 Ping Test from Windows (Failed) ❌
-![Step 10](screenshots/10-ping-fail.png)
+![Step 10](screenshots/10-ping-fail.PNG)
 > `ping 192.168.10.11` → 100% loss. **This failure taught me more than success would have.**
 
 ### 1️⃣1️⃣ Ping Localhost (Success) ✅
-![Step 11](screenshots/11-ping-localhost.png)
+![Step 11](screenshots/11-ping-localhost.PNG)
 > `ping 127.0.0.1` → Works fine. Host TCP/IP stack is healthy.
 
 ### 1️⃣2️⃣ Update Kali Tools 📦
-![Step 12](screenshots/12-apt-update.png)
+![Step 12](screenshots/12-apt-update.PNG)
 > `sudo apt update` - Ensured all security tools are latest version.
 
 ---
